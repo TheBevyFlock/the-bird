@@ -1,0 +1,141 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    background: #fff7ed;
+    color: black;
+    margin: 0;
+    padding: 12px;
+}
+
+.container {
+    margin: 0 auto;
+    min-width: 470px;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+}
+
+.license img {
+    width: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.header img {
+    flex: 0 1 auto;
+    min-width: 72px;
+    width: 22vw;
+    max-width: 150px;
+    margin-right: 12px;
+    margin-top: 0.5rem;
+}
+
+.header .introduction {
+    flex: 1 1 auto;
+    max-width: calc(100% - 80px);
+}
+
+.header h1,
+.header h2 {
+    word-wrap: break-word;
+}
+
+.header h1 {
+    line-height: 3rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .bird-variants {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content .bird-variants>div {
+    flex: 0 1 auto;
+    min-width: 150px;
+    max-width: 250px;
+    margin-right: 12px;
+}
+
+.bird-variants h3 {
+    height: 1.2em;
+}
+
+.related-works-nav {
+    display: flex;
+    background: rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.related-works-nav a {
+    display: block;
+    padding: 12px;
+}
+
+.related-works-nav a:hover {
+    background: white;
+}
+
+.related-works-items .bird-variants {
+    margin-left: 24px;
+}
+
+h2,
+h3 {
+    color: #991b1b;
+}
+
+h1 {
+    font-family: 'Bevan', 'Rockwell Extra Bold', 'Merriweather', Bodoni, Baskerville, serif;
+    font-weight: 400;
+    color: #7f1d1d;
+    /* #02549E; */
+    font-size: 3em;
+    margin-top: .25em;
+    margin-bottom: .5em;
+}
+
+h1 span {
+    color: #e33b26;
+}
+
+.dl {
+    text-align: center;
+}
+
+.content h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+a {
+    color: #78350f;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #b45309;
+}
+
+.license {
+    margin-top: 12px;
+}
+
+.license a[rel="license"] {
+    display: block;
+}
