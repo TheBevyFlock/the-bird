@@ -1,5 +1,5 @@
 body {
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: 300;
     background: #fff7ed;
     color: black;
@@ -63,15 +63,11 @@ img {
     flex-wrap: wrap;
 }
 
-.content .bird-variants>div {
+.content .bird-variants > div {
     flex: 0 1 auto;
     min-width: 150px;
     max-width: 250px;
     margin-right: 12px;
-}
-
-.bird-variants h3 {
-    height: 1.2em;
 }
 
 .related-works-nav {
@@ -104,13 +100,15 @@ h3 {
 }
 
 h1 {
-    font-family: 'Bevan', 'Rockwell Extra Bold', 'Merriweather', Bodoni, Baskerville, serif;
+    font-family:
+        "Bevan", "Rockwell Extra Bold", "Merriweather", Bodoni, Baskerville,
+        serif;
     font-weight: 400;
     color: #7f1d1d;
     /* #02549E; */
     font-size: 3em;
-    margin-top: .25em;
-    margin-bottom: .5em;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
 }
 
 h1 span {
